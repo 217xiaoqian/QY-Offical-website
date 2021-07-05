@@ -1,0 +1,82 @@
+.fr ul li:nth-of-type(2) a {
+  color: #FF7033;
+}
+
+.content {
+  position: relative;
+
+}
+
+.banner {
+  width: 1900px;
+  height: 240px;
+  background: url(../images/featureBanner.png);
+}
+
+.navButton {
+  position: absolute;
+  top: -53px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #333333;
+  font-size: 20px;
+
+}
+
+.navButton span {
+  width: 250px;
+  height: 67px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 67px;
+  border: #FFFEFD solid 1px;
+  border-radius: 10px 0 10px 0;
+  box-shadow: 0px 3px 4px 0px rgba(157, 157, 157, 0.35);
+  background-color: #FFFEFD;
+  cursor: pointer;
+}
+
+.navButton .active {
+  color: #FC5E1B;
+  box-shadow: none;
+}
+
+.item {
+  display: flex;
+  padding: 70px 0 100px 0;
+  justify-content: center;
+}
+
+.hide {
+  display: none;
+}
+
+.hide:nth-child(2) {
+  display: block;
+}
+
+.item>img {
+  height: 567px;
+}
+
+.item>ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 567px;
+  width: 512px;
+}
+
+.item>ul>li>h3 {
+  color: #333333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.item>ul>li>p {
+  color: #666666;
+  font-size: 16px;
+}
